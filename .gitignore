@@ -1,0 +1,30 @@
+# Env
+.env
+
+# Modele BERT (prea mari)
+bert_eduro_v3/
+bert_eduro_v5/
+
+# Dataset-uri
+DATA_SET_AFTER_CLEANING/
+DATA_SET_BEFORE_CLEANING/
+
+# PDF-uri uploadate
+uploads/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.idea/
+
+# Altele
+outputs/
+EduQuizRO_balanced.xlsx

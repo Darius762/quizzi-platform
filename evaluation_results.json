@@ -1,0 +1,1512 @@
+{
+  "summary": {
+    "total_evaluated": 100,
+    "errors": 0,
+    "bertscore_precision": 0.8230566382408142,
+    "bertscore_recall": 0.8367323279380798,
+    "bertscore_f1": 0.8288289904594421,
+    "answer_accuracy": 24.0
+  },
+  "details": [
+    {
+      "id": 1,
+      "context": "Procesorul este componenta principala a unui calculator, responsabila cu executarea instructiunilor programului.",
+      "reference_question": "Care este rolul procesorului intr-un calculator?",
+      "generated_question": "Care este componenta principala a unui calculator?",
+      "generated_options": {
+        "A": "Procesorul",
+        "B": "Memoria",
+        "C": "Placa de baza",
+        "D": "Sistemul de operare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Conform textului, procesorul este componenta principala a unui calculator, responsabila cu executarea instructiunilor programului."
+    },
+    {
+      "id": 2,
+      "context": "Ion Creanga este considerat unul dintre cei mai importanti prozatori romani, cunoscut pentru opera 'Amintiri din copilarie'.",
+      "reference_question": "Cine a scris 'Amintiri din copilarie'?",
+      "generated_question": "Care este considerat Ion Creanga pentru opera 'Amintiri din copilarie'?",
+      "generated_options": {
+        "A": "unul dintre cei mai importanti prozatori romani",
+        "B": "unul dintre cei mai cunoscuti poeti romani",
+        "C": "unul dintre cei mai importanti dramaturgi romani",
+        "D": "unul dintre cei mai buni istorici romani"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Ion Creanga este considerat unul dintre cei mai importanti prozatori romani, cunoscut pentru opera 'Amintiri din copilarie', conform textului dat."
+    },
+    {
+      "id": 3,
+      "context": "O structura de date de tip stiva respecta principiul LIFO — Last In, First Out.",
+      "reference_question": "Ce principiu urmeaza o stiva?",
+      "generated_question": "Care este principiul pe care il respecta o structura de date de tip stiva?",
+      "generated_options": {
+        "A": "Last In, First Out",
+        "B": "First In, First Out",
+        "C": "Last In, Last Out",
+        "D": "First In, Last Out"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Structura de date de tip stiva respecta principiul LIFO, ceea ce inseamna ca ultimul element adaugat este primul care este extras."
+    },
+    {
+      "id": 4,
+      "context": "Algoritmul de sortare prin insertie compara fiecare element cu cele deja sortate si il plaseaza in pozitia corecta.",
+      "reference_question": "Cum functioneaza algoritmul de sortare prin insertie?",
+      "generated_question": "Cum functioneaza algoritmul de sortare prin insertie?",
+      "generated_options": {
+        "A": "Compara fiecare element cu cele deja sortate si il plaseaza in pozitia corecta",
+        "B": "Compara doar primul element cu cele deja sortate",
+        "C": "Plaseaza elementele in ordine inversa",
+        "D": "Nu compara elementele intre ele"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Algoritmul de sortare prin insertie compara fiecare element cu cele deja sortate si il plaseaza in pozitia corecta, conform textului"
+    },
+    {
+      "id": 5,
+      "context": "Fotosinteza este procesul prin care plantele produc substante organice folosind dioxid de carbon, apa si lumina solara.",
+      "reference_question": "Ce este fotosinteza?",
+      "generated_question": "Ce este fotosinteza?",
+      "generated_options": {
+        "A": "procesul prin care plantele produc substante organice folosind dioxid de carbon, apa si lumina solara",
+        "B": "procesul prin care plantele absorb apa si lumina solara",
+        "C": "procesul prin care plantele produc dioxid de carbon si apa",
+        "D": "procesul prin care plantele absorb substante organice din sol"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Fotosinteza este procesul prin care plantele produc substante organice folosind dioxid de carbon, apa si lumina solara, conform textului."
+    },
+    {
+      "id": 6,
+      "context": "Mitocondria este organitul celular responsabil de producerea energiei in celula.",
+      "reference_question": "Care este functia principala a mitocondriei?",
+      "generated_question": "Care este rolul principal al mitocondriilor în celulă?",
+      "generated_options": {
+        "A": "producerea energiei",
+        "B": "reglarea temperaturii",
+        "C": "stocarea informației genetice",
+        "D": "reglarea metabolismului apei"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Conform textului, mitocondria este organitul celular responsabil de producerea energiei în celulă."
+    },
+    {
+      "id": 7,
+      "context": "ADN-ul contine informatia genetica necesara pentru dezvoltarea si functionarea organismelor vii.",
+      "reference_question": "Ce rol are ADN-ul in celula?",
+      "generated_question": "Ce contine ADN-ul?",
+      "generated_options": {
+        "A": "informatia genetica necesara pentru dezvoltarea si functionarea organismelor vii",
+        "B": "informatia necesara pentru functionarea sistemului nervos",
+        "C": "informatia genetica necesara pentru functionarea sistemului imunitar",
+        "D": "informatia necesara pentru dezvoltarea sistemului muscular"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "ADN-ul contine informatia genetica necesara pentru dezvoltarea si functionarea organismelor vii, conform textului."
+    },
+    {
+      "id": 8,
+      "context": "Revolutia franceza a avut loc intre anii 1789 si 1799 si a dus la abolirea monarhiei absolute.",
+      "reference_question": "Ce consecinta majora a avut Revolutia franceza?",
+      "generated_question": "In ce perioada a avut loc Revolutia franceza?",
+      "generated_options": {
+        "A": "intre anii 1789 si 1799",
+        "B": "intre anii 1790 si 1800",
+        "C": "intre anii 1780 si 1790",
+        "D": "intre anii 1750 si 1760"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Conform textului, Revolutia franceza a avut loc intre anii 1789 si 1799."
+    },
+    {
+      "id": 9,
+      "context": "Mihai Viteazul este cunoscut pentru prima unire a Tarii Romanesti, Moldovei si Transilvaniei in anul 1600.",
+      "reference_question": "Ce fapt istoric este asociat cu Mihai Viteazul?",
+      "generated_question": "In ce an a avut loc prima unire a Tarii Romanesti, Moldovei si Transilvaniei sub conducerea lui Mihai Viteazul?",
+      "generated_options": {
+        "A": "1600",
+        "B": "1599",
+        "C": "1601",
+        "D": "1598"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Conform textului, Mihai Viteazul a realizat prima unire a Tarii Romanesti, Moldovei si Transilvaniei in anul 1600."
+    },
+    {
+      "id": 10,
+      "context": "Primul Razboi Mondial a izbucnit in 1914 si s-a incheiat in 1918, ca urmare a tensiunilor dintre marile puteri europene.",
+      "reference_question": "Cand a avut loc Primul Razboi Mondial?",
+      "generated_question": "In ce an s-a incheiat Primul Razboi Mondial?",
+      "generated_options": {
+        "A": "1918",
+        "B": "1914",
+        "C": "1915",
+        "D": "1919"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Conform textului, Primul Razboi Mondial s-a incheiat in 1918."
+    },
+    {
+      "id": 11,
+      "context": "Inflatia reprezinta cresterea generalizata si sustinuta a preturilor bunurilor si serviciilor intr-o economie.",
+      "reference_question": "Ce este inflatia?",
+      "generated_question": "Ce reprezinta inflatia?",
+      "generated_options": {
+        "A": "cresterea generalizata si sustinuta a preturilor bunurilor si serviciilor intr-o economie",
+        "B": "scaderea preturilor bunurilor si serviciilor",
+        "C": "cresterea numarului de locuri de munca",
+        "D": "dezvoltarea economiei prin investitii straine"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Inflatia este definita in text ca fiind cresterea generalizata si sustinuta a preturilor bunurilor si serviciilor intr-o economie."
+    },
+    {
+      "id": 12,
+      "context": "Cererea este cantitatea de bunuri sau servicii pe care consumatorii sunt dispusi sa le cumpere la un anumit pret.",
+      "reference_question": "Ce reprezinta cererea pe piata?",
+      "generated_question": "Ce reprezintă cererea?",
+      "generated_options": {
+        "A": "cantitatea de bunuri sau servicii pe care consumatorii sunt dispusi sa le cumpere la un anumit pret",
+        "B": "pretul la care se vând bunurile sau serviciile",
+        "C": "numărul de consumatori pe piață",
+        "D": "cantitatea de bunuri sau servicii produse de o întreprindere"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Cererea este definită în text ca fiind cantitatea de bunuri sau servicii pe care consumatorii sunt dispusi sa le cumpere la un anumit pret."
+    },
+    {
+      "id": 13,
+      "context": "PIB-ul (Produsul Intern Brut) masoara valoarea totala a bunurilor si serviciilor finale produse intr-o tara intr-un an.",
+      "reference_question": "Ce indica PIB-ul?",
+      "generated_question": "Ce masoara PIB-ul?",
+      "generated_options": {
+        "A": "valoarea totala a bunurilor si serviciilor finale produse intr-o tara intr-un an",
+        "B": "valoarea totala a bunurilor si serviciilor produse de catre straini intr-o tara",
+        "C": "valoarea totala a bunurilor importate intr-o tara intr-un an",
+        "D": "valoarea totala a serviciilor finale importate intr-o tara intr-un an"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "PIB-ul masoara valoarea totala a bunurilor si serviciilor finale produse intr-o tara intr-un an, conform definitiei din text."
+    },
+    {
+      "id": 14,
+      "context": "Energia cinetica este energia asociata miscarii unui corp si depinde de masa si de viteza acestuia.",
+      "reference_question": "De ce factori depinde energia cinetica a unui corp?",
+      "generated_question": "Ce factori influențează energia cinetică a unui corp?",
+      "generated_options": {
+        "A": "masa și viteza",
+        "B": "greutatea și volumul",
+        "C": "densitatea și forma",
+        "D": "temperatura și presiunea"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Energia cinetică este energia asociată mișcării unui corp și depinde de masa și de viteza acestuia."
+    },
+    {
+      "id": 15,
+      "context": "Forta gravitationala este forta de atractie dintre doua corpuri, proportionala cu masele lor si invers proportionala cu patratul distantei dintre ele.",
+      "reference_question": "Ce este forta gravitationala?",
+      "generated_question": "Cum variaza forta gravitationala in functie de distanta dintre doua corpuri?",
+      "generated_options": {
+        "A": "invers proportionala cu patratul distantei",
+        "B": "direct proportionala cu distanta",
+        "C": "invers proportionala cu distanta",
+        "D": "direct proportionala cu patratul distantei"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Conform textului, forta gravitationala este invers proportionala cu patratul distantei dintre doua corpuri, ceea ce inseamna ca atunci cand distanta creste, forta gravitationala scade."
+    },
+    {
+      "id": 16,
+      "context": "Arhitectura von Neumann definește structura de bază a unui calculator, incluzând memoria, unitatea de calcul, unitatea de control și dispozitivele de intrare/ieșire.",
+      "reference_question": "Care sunt componentele principale ale arhitecturii von Neumann?",
+      "generated_question": "Care sunt componentele de baza ale unui calculator definite de arhitectura von Neumann?",
+      "generated_options": {
+        "A": "memoria, unitatea de calcul, unitatea de control și dispozitivele de intrare/ieșire",
+        "B": "unitatea de calcul, unitatea de control și dispozitivele de intrare/ieșire",
+        "C": "memoria, unitatea de calcul și dispozitivele de intrare/ieșire",
+        "D": "unitatea de control și dispozitivele de intrare/ieșire"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Arhitectura von Neumann definește structura de bază a unui calculator, incluzând memoria, unitatea de calcul, unitatea de control și dispozitivele de intrare/ieșire."
+    },
+    {
+      "id": 17,
+      "context": "Unitatea de control coordonează prelucrarea informației numerice și gestionează fluxul instrucțiunilor dintr-un program.",
+      "reference_question": "Ce rol are unitatea de control într-un calculator?",
+      "generated_question": "Care este rolul unității de control într-un sistem?",
+      "generated_options": {
+        "A": "Coordonează prelucrarea informației numerice și gestionează fluxul instrucțiunilor",
+        "B": "Execută instrucțiunile și stochează datele",
+        "C": "Realizează operații aritmetice și logice",
+        "D": "Interacționează cu utilizatorul și afișează rezultatele"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Unitatea de control are rolul de a coordona prelucrarea informației numerice și de a gestiona fluxul instrucțiunilor dintr-un program, așa cum se menționează în text."
+    },
+    {
+      "id": 18,
+      "context": "Unitatea de calcul efectuează operațiile propriu-zise asupra datelor, de tip logic sau aritmetic.",
+      "reference_question": "Ce tip de operații realizează unitatea de calcul?",
+      "generated_question": "Ce tipuri de operații efectuează unitatea de calcul asupra datelor?",
+      "generated_options": {
+        "A": "logic și aritmetic",
+        "B": "logic și geometric",
+        "C": "aritmetic și geometric",
+        "D": "doar logic"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Unitatea de calcul efectuează operațiile propriu-zise asupra datelor, de tip logic sau aritmetic, conform textului dat."
+    },
+    {
+      "id": 19,
+      "context": "Memoria primară a unui calculator stochează atât datele, cât și instrucțiunile necesare execuției programelor.",
+      "reference_question": "Ce se stochează în memoria primară a unui calculator?",
+      "generated_question": "Ce stochează memoria primară a unui calculator?",
+      "generated_options": {
+        "A": "datele și instrucțiunile necesare execuției programelor",
+        "B": "doar datele",
+        "C": "doar instrucțiunile",
+        "D": "nimic din cele menționate"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Memoria primară stochează atât datele, cât și instrucțiunile necesare execuției programelor, conform textului."
+    },
+    {
+      "id": 20,
+      "context": "Un calculator numeric este un dispozitiv electronic capabil să prelucreze, să stocheze și să transmită informații numerice.",
+      "reference_question": "Ce reprezintă un calculator numeric?",
+      "generated_question": "Ce tip de informații poate prelucra un calculator numeric?",
+      "generated_options": {
+        "A": "numerice",
+        "B": "text",
+        "C": "imagini",
+        "D": "sunete"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Conform textului, un calculator numeric este capabil să prelucreze informații numerice."
+    },
+    {
+      "id": 21,
+      "context": "Limbajul de programare C a fost dezvoltat între anii 1971-1973 de Dennis Ritchie în laboratoarele Bell ca o extindere a limbajului B.",
+      "reference_question": "Cine a dezvoltat limbajul C și când?",
+      "generated_question": "În ce perioadă a fost dezvoltat limbajul de programare C?",
+      "generated_options": {
+        "A": "1971-1973",
+        "B": "1965-1967",
+        "C": "1975-1977",
+        "D": "1980-1982"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Conform textului, limbajul de programare C a fost dezvoltat între anii 1971-1973 de Dennis Ritchie."
+    },
+    {
+      "id": 22,
+      "context": "Standardul C89/C90 reprezintă prima versiune oficială standardizată a limbajului C, aprobată de ANSI în 1989.",
+      "reference_question": "Care a fost primul standard oficial al limbajului C?",
+      "generated_question": "În ce an a fost aprobat standardul C89/C90 de către ANSI?",
+      "generated_options": {
+        "A": "1989",
+        "B": "1990",
+        "C": "1985",
+        "D": "1995"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Conform textului, standardul C89/C90 a fost aprobat de ANSI în 1989."
+    },
+    {
+      "id": 23,
+      "context": "C este un limbaj de nivel mediu, ceea ce înseamnă că oferă un echilibru între ușurința de programare și performanța de execuție.",
+      "reference_question": "Ce înseamnă că limbajul C este de nivel mediu?",
+      "generated_question": "Ce nivel de limbaj de programare reprezintă C?",
+      "generated_options": {
+        "A": "Mediu",
+        "B": "Înalt",
+        "C": "Scăzut",
+        "D": "Fundamental"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Conform textului, C este un limbaj de nivel mediu, ceea ce înseamnă că oferă un echilibru între ușurința de programare și performanța de execuție."
+    },
+    {
+      "id": 24,
+      "context": "C a fost folosit pentru dezvoltarea sistemelor de operare, a driverelor și a aplicațiilor încorporate datorită vitezei și controlului asupra resurselor hardware.",
+      "reference_question": "În ce domenii este folosit predominant limbajul C?",
+      "generated_question": "Care a fost motivul pentru care a fost folosit limbajul C în dezvoltarea de software?",
+      "generated_options": {
+        "A": "Viteza și controlul asupra resurselor hardware",
+        "B": "Ușurința învățării și a utilizării",
+        "C": "Compatibilitatea cu toate dispozitivele",
+        "D": "Costul redus al dezvoltării"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Limbajul C a fost folosit pentru dezvoltarea sistemelor de operare, a driverelor și a aplicațiilor încorporate datorită vitezei și controlului asupra resurselor hardware."
+    },
+    {
+      "id": 25,
+      "context": "Procesorul controlează execuția instrucțiunilor și efectuează operațiile logice și aritmetice prin intermediul registrelor sale interne.",
+      "reference_question": "Cum contribuie procesorul la funcționarea calculatorului?",
+      "generated_question": "Ce controlează procesorul?",
+      "generated_options": {
+        "A": "execuția instrucțiunilor",
+        "B": "memoria calculatorului",
+        "C": "interfața cu utilizatorul",
+        "D": "sistemul de alimentare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Procesorul controlează execuția instrucțiunilor, conform textului."
+    },
+    {
+      "id": 26,
+      "context": "Unitatea centrală de prelucrare (CPU) conține unitatea de control, unitatea de calcul și mai mulți regiștri de uz general, stare și segment.",
+      "reference_question": "Ce componente conține CPU-ul?",
+      "generated_question": "Ce componente conține unitatea centrală de prelucrare (CPU)?",
+      "generated_options": {
+        "A": "unitatea de control, unitatea de calcul și regiștri",
+        "B": "unitatea de control și unitatea de calcul",
+        "C": "unitatea de control și mai mulți regiștri de uz special",
+        "D": "unitatea de calcul și regiștri de uz special"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Unitatea centrală de prelucrare (CPU) conține unitatea de control, unitatea de calcul și mai mulți regiștri de uz general, stare și segment, așa cum se specifică în text."
+    },
+    {
+      "id": 27,
+      "context": "Memoria este organizată în locații identificate prin adrese, fiecare locație stocând o cantitate fixă de informație binară.",
+      "reference_question": "Cum este organizată memoria unui calculator?",
+      "generated_question": "Cum este organizată memoria?",
+      "generated_options": {
+        "A": "în locații identificate prin adrese",
+        "B": "în funcție de tipul de informație",
+        "C": "în ordine cronologică",
+        "D": "în mod aleatoriu"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Memoria este organizată în locații identificate prin adrese, fiecare locație stocând o cantitate fixă de informație binară, conform textului."
+    },
+    {
+      "id": 28,
+      "context": "Un bit este cea mai mică unitate de informație, având două valori posibile: 0 sau 1.",
+      "reference_question": "Ce reprezintă un bit?",
+      "generated_question": "Care sunt valorile posibile ale unei unități de informație numită bit?",
+      "generated_options": {
+        "A": "0 sau 1",
+        "B": "0 sau -1",
+        "C": "1 sau 2",
+        "D": "-1 sau 0"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Conform textului, un bit este cea mai mică unitate de informație și are două valori posibile: 0 sau 1."
+    },
+    {
+      "id": 29,
+      "context": "Un octet (sau byte) este o secvență de 8 biți, reprezentând adesea dimensiunea unui cuvânt de memorie.",
+      "reference_question": "Ce este un octet?",
+      "generated_question": "Ce reprezintă un octet?",
+      "generated_options": {
+        "A": "o secvență de 8 biți",
+        "B": "o secvență de 16 biți",
+        "C": "o secvență de 4 biți",
+        "D": "o secvență de 2 biți"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Un octet sau byte este definit în text ca o secvență de 8 biți."
+    },
+    {
+      "id": 30,
+      "context": "Dispozitivele de intrare/ieșire (I/O) asigură comunicarea calculatorului cu mediul extern, prin introducerea și extragerea informațiilor.",
+      "reference_question": "Care este rolul dispozitivelor de intrare/ieșire?",
+      "generated_question": "Care este scopul dispozitivelor de intrare/ieșire (I/O) în ceea ce privește calculatorul?",
+      "generated_options": {
+        "A": "Asigură comunicarea calculatorului cu mediul extern",
+        "B": "Execută instrucțiuni și calcule",
+        "C": "Stochează informații și date",
+        "D": "Reglează temperatura calculatorului"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Dispozitivele de intrare/ieșire (I/O) asigură comunicarea calculatorului cu mediul extern, prin introducerea și extragerea informațiilor, astfel încât calculatorul să poată interacționa cu utilizatorii și cu alte dispozitive."
+    },
+    {
+      "id": 31,
+      "context": "Programul este o secvență de instrucțiuni mașină, care trebuie încărcate în memoria primară pentru a fi executate.",
+      "reference_question": "Ce reprezintă un program din punct de vedere al execuției?",
+      "generated_question": "Unde trebuie încărcate instrucțiunile mașină pentru a fi executate?",
+      "generated_options": {
+        "A": "În memoria primară",
+        "B": "În memoria secundară",
+        "C": "Pe discul dur",
+        "D": "În rețeaua de calculatoare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Conform textului, programul trebuie încărcat în memoria primară pentru a fi executat."
+    },
+    {
+      "id": 32,
+      "context": "Ciclul instrucțiunii este procesul prin care procesorul recuperează, decodifică și execută instrucțiunile din memorie.",
+      "reference_question": "Care sunt etapele ciclului instrucțiunii?",
+      "generated_question": "Ce reprezintă ciclul instrucțiunii?",
+      "generated_options": {
+        "A": "Procesul prin care procesorul recuperează, decodifică și execută instrucțiunile din memorie",
+        "B": "Procesul de stocare a datelor în memorie",
+        "C": "Procesul de decodificare a instrucțiunilor fără executare",
+        "D": "Procesul de execuție a instrucțiunilor fără decodificare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Ciclul instrucțiunii este procesul prin care procesorul recuperează, decodifică și execută instrucțiunile din memorie, conform definiției din text."
+    },
+    {
+      "id": 33,
+      "context": "Sistemele de numeratie definesc modurile de reprezentare a numerelor utilizând baze diferite, precum 2, 8, 10 sau 16.",
+      "reference_question": "Ce reprezintă un sistem de numeratie?",
+      "generated_question": "Ce baze sunt utilizate în sistemele de numeratie?",
+      "generated_options": {
+        "A": "2, 8, 10 sau 16",
+        "B": "2, 4, 6 sau 8",
+        "C": "1, 5, 10 sau 15",
+        "D": "3, 6, 9 sau 12"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Sistemele de numeratie definesc modurile de reprezentare a numerelor utilizând baze diferite, precum 2, 8, 10 sau 16."
+    },
+    {
+      "id": 34,
+      "context": "Un algoritm este o secvență de pași logici care descriu modul de rezolvare a unei probleme.",
+      "reference_question": "Ce este un algoritm?",
+      "generated_question": "Ce reprezintă un algoritm?",
+      "generated_options": {
+        "A": "o secvență de pași logici care descriu modul de rezolvare a unei probleme",
+        "B": "o colecție de date",
+        "C": "un model de prognoză",
+        "D": "un sistem de operare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Un algoritm este definit ca o secvență de pași logici care descriu modul de rezolvare a unei probleme, conform textului."
+    },
+    {
+      "id": 35,
+      "context": "Reprezentarea informației numerice în calculator se face folosind semnale discrete care pot lua un număr finit de valori.",
+      "reference_question": "Cum este reprezentată informația numerică într-un calculator?",
+      "generated_question": "Cum se face reprezentarea informației numerice în calculator?",
+      "generated_options": {
+        "A": "folosind semnale discrete",
+        "B": "folosind semnale continue",
+        "C": "folosind semnale analogice",
+        "D": "folosind semnale digitale și analogice"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Reprezentarea informației numerice în calculator se face folosind semnale discrete care pot lua un număr finit de valori, așa cum se menționează în text."
+    },
+    {
+      "id": 36,
+      "context": "Limbajul C a fost dezvoltat în cadrul laboratoarelor Bell, de către Ken Thompson și Dennis Ritchie, ca o extindere a limbajului B.",
+      "reference_question": "Cine a dezvoltat limbajul de programare C și în ce context?",
+      "generated_question": "Unde a fost dezvoltat limbajul C?",
+      "generated_options": {
+        "A": "laboratoarele Bell",
+        "B": "Universitatea Cambridge",
+        "C": "Institutul de Tehnologie Massachusetts",
+        "D": "Universitatea Stanford"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Conform textului, limbajul C a fost dezvoltat în cadrul laboratoarelor Bell, de către Ken Thompson și Dennis Ritchie."
+    },
+    {
+      "id": 37,
+      "context": "Limbajul B, predecesorul limbajului C, a fost influențat de BCPL, un limbaj de programare a sistemelor dezvoltat în anii 1960.",
+      "reference_question": "Ce limbaj a influențat dezvoltarea limbajului B, precursorul lui C?",
+      "generated_question": "Care a fost influența asupra limbajului B?",
+      "generated_options": {
+        "A": "BCPL",
+        "B": "Limbajul C",
+        "C": "Limbajul Java",
+        "D": "Limbajul Python"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Conform textului, limbajul B a fost influențat de BCPL, un limbaj de programare a sistemelor dezvoltat în anii 1960."
+    },
+    {
+      "id": 38,
+      "context": "Primul standard oficial al limbajului C, cunoscut ca ANSI C sau C89, a fost aprobat în decembrie 1989.",
+      "reference_question": "În ce an a fost aprobat primul standard oficial al limbajului C?",
+      "generated_question": "În ce an a fost aprobat primul standard oficial al limbajului C?",
+      "generated_options": {
+        "A": "1989",
+        "B": "1990",
+        "C": "1988",
+        "D": "1991"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Conform textului, primul standard oficial al limbajului C a fost aprobat în decembrie 1989."
+    },
+    {
+      "id": 39,
+      "context": "Standardul C99 a adus modificări importante limbajului C, inclusiv suport pentru comentarii în stil C++ și noi tipuri de date.",
+      "reference_question": "Ce îmbunătățiri majore a introdus standardul C99?",
+      "generated_question": "Ce a adus standardul C99 limbajului C?",
+      "generated_options": {
+        "A": "suport pentru comentarii în stil C++ și noi tipuri de date",
+        "B": "suport pentru comentarii în stil C și tipuri de date vechi",
+        "C": "suport pentru comentarii în stil Java și noi tipuri de date",
+        "D": "suport pentru comentarii în stil Python și tipuri de date vechi"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Standardul C99 a adus modificări importante limbajului C, inclusiv suport pentru comentarii în stil C++ și noi tipuri de date, conform textului."
+    },
+    {
+      "id": 40,
+      "context": "C este apreciat pentru simplitatea și performanța sa, fiind considerat un limbaj de bază pentru învățarea programării.",
+      "reference_question": "De ce este apreciat limbajul C?",
+      "generated_question": "Care este motivul pentru care C este apreciat?",
+      "generated_options": {
+        "A": "Simplitatea și performanța sa",
+        "B": "Flexibilitatea și complexitatea sa",
+        "C": "Costul și accesibilitatea sa",
+        "D": "Securitatea și stabilitatea sa"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "C este apreciat pentru simplitatea și performanța sa, fiind considerat un limbaj de bază pentru învățarea programării, așa cum se menționează în text."
+    },
+    {
+      "id": 41,
+      "context": "Limbajul C stă la baza unei game largi de alte limbaje moderne, precum C++, Java, C#, Swift sau Python.",
+      "reference_question": "Ce limbaje moderne au fost influențate de C?",
+      "generated_question": "Care dintre următoarele limbaje de programare are la baza limbajul C?",
+      "generated_options": {
+        "A": "C++, Java, C#, Swift sau Python",
+        "B": "Java, C#, Swift sau Python, dar nu C++",
+        "C": "Numai C++ și Java",
+        "D": "Numai Swift și Python"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Conform textului, limbajul C stă la baza unei game largi de alte limbaje moderne, incluzând C++, Java, C#, Swift sau Python."
+    },
+    {
+      "id": 42,
+      "context": "C este considerat un limbaj de nivel mediu deoarece combină controlul hardware al limbajelor de nivel jos cu ușurința de utilizare a celor de nivel înalt.",
+      "reference_question": "De ce este considerat C un limbaj de nivel mediu?",
+      "generated_question": "Care este nivelul limbajului C?",
+      "generated_options": {
+        "A": "mediu",
+        "B": "înalt",
+        "C": "jos",
+        "D": "foarte înalt"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Limbajul C este considerat un limbaj de nivel mediu deoarece combină controlul hardware al limbajelor de nivel jos cu ușurința de utilizare a celor de nivel înalt."
+    },
+    {
+      "id": 43,
+      "context": "C a fost folosit pentru dezvoltarea sistemelor de operare populare precum Unix, Linux și Windows.",
+      "reference_question": "Pentru ce tipuri de aplicații a fost folosit limbajul C?",
+      "generated_question": "Care limbaj de programare a fost folosit pentru dezvoltarea sistemelor de operare precum Unix, Linux și Windows?",
+      "generated_options": {
+        "A": "C",
+        "B": "Java",
+        "C": "Python",
+        "D": "C++"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Limbajul C a fost folosit pentru dezvoltarea acestor sisteme de operare, conform textului."
+    },
+    {
+      "id": 44,
+      "context": "Un algoritm este o succesiune de pași logici care rezolvă o problemă specifică într-un număr finit de etape.",
+      "reference_question": "Ce reprezintă un algoritm în informatică?",
+      "generated_question": "Ce reprezintă un algoritm?",
+      "generated_options": {
+        "A": "o succesiune de pași logici care rezolvă o problemă specifică într-un număr finit de etape",
+        "B": "o problemă specifică care necesită o soluție",
+        "C": "o etapă dintr-un proces",
+        "D": "un proces infinit de rezolvare a unei probleme"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Un algoritm este definit ca o succesiune de pași logici care rezolvă o problemă specifică într-un număr finit de etape, conform textului dat."
+    },
+    {
+      "id": 45,
+      "context": "Calitatea unui algoritm poate fi evaluată în funcție de dimensiunea problemei și timpul de rezolvare.",
+      "reference_question": "Cum se poate evalua calitatea unui algoritm?",
+      "generated_question": "Ce factori influențează evaluarea calității unui algoritm?",
+      "generated_options": {
+        "A": "dimensiunea problemei și timpul de rezolvare",
+        "B": "numărul de variabile și memoria utilizată",
+        "C": "complexitatea problemei și numărul de iterații",
+        "D": "tipul problemei și limbajul de programare utilizat"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Conform textului, calitatea unui algoritm poate fi evaluată în funcție de dimensiunea problemei și timpul de rezolvare."
+    },
+    {
+      "id": 46,
+      "context": "Un program reprezintă implementarea unui algoritm într-un limbaj de programare, sub forma unui set de instrucțiuni executabile.",
+      "reference_question": "Care este relația dintre algoritm și program?",
+      "generated_question": "Ce reprezintă un program?",
+      "generated_options": {
+        "A": "implementarea unui algoritm într-un limbaj de programare",
+        "B": "un algoritm fără implementare",
+        "C": "un limbaj de programare fără algoritm",
+        "D": "un set de date"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Un program reprezintă implementarea unui algoritm într-un limbaj de programare, sub forma unui set de instrucțiuni executabile, conform definiției din text."
+    },
+    {
+      "id": 47,
+      "context": "Simularea unui algoritm presupune urmărirea pas cu pas a execuției acestuia pentru a verifica corectitudinea rezultatelor.",
+      "reference_question": "Ce presupune simularea unui algoritm?",
+      "generated_question": "Ce presupune simularea unui algoritm?",
+      "generated_options": {
+        "A": "Urmărirea pas cu pas a execuției acestuia pentru a verifica corectitudinea rezultatelor",
+        "B": "Testarea algoritmului pe un set de date mari",
+        "C": "Compararea cu alte algoritmi similari",
+        "D": "Optimizarea performanței algoritmului"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Simularea unui algoritm presupune urmărirea pas cu pas a execuției acestuia pentru a verifica corectitudinea rezultatelor, așa cum se specifică în text."
+    },
+    {
+      "id": 48,
+      "context": "Reprezentarea informației numerice se bazează pe sisteme de numerație, cum ar fi baza 2 (binar), 8 (octal), 10 (zecimal) și 16 (hexazecimal).",
+      "reference_question": "Care sunt cele mai utilizate baze de numerație în informatică?",
+      "generated_question": "Ce sisteme de numerație se folosesc pentru reprezentarea informației numerice?",
+      "generated_options": {
+        "A": "baza 2, 8, 10 și 16",
+        "B": "baza 2, 4, 10 și 16",
+        "C": "baza 2, 8, 10 și 12",
+        "D": "baza 2, 8, 10 și 20"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Reprezentarea informației numerice se bazează pe sisteme de numerație, cum ar fi baza 2 (binar), 8 (octal), 10 (zecimal) și 16 (hexazecimal), așa cum se menționează în text."
+    },
+    {
+      "id": 49,
+      "context": "Codificarea informației numerice permite reprezentarea datelor sub formă de biți, folosind standarde precum ASCII sau Unicode.",
+      "reference_question": "Ce rol are codificarea informației numerice?",
+      "generated_question": "Care sunt standardele utilizate pentru reprezentarea datelor sub formă de biți?",
+      "generated_options": {
+        "A": "ASCII sau Unicode",
+        "B": "ASCII sau Hexadecimal",
+        "C": "Unicode sau Binare",
+        "D": "Hexadecimal sau Octal"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Conform textului, standardele precum ASCII sau Unicode sunt utilizate pentru reprezentarea datelor sub formă de biți."
+    },
+    {
+      "id": 50,
+      "context": "Unitatea de control a prelucrării din CPU gestionează fluxul instrucțiunilor și semnalele de comandă necesare execuției.",
+      "reference_question": "Ce funcție are unitatea de control a prelucrării?",
+      "generated_question": "Care parte a CPU gestionează fluxul instrucțiunilor și semnalele de comandă necesare execuției?",
+      "generated_options": {
+        "A": "Unitatea de control a prelucrării",
+        "B": "Unitatea de execuție",
+        "C": "Unitatea de memorie",
+        "D": "Unitatea de intrare/ieșire"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Conform textului, unitatea de control a prelucrării din CPU gestionează fluxul instrucțiunilor și semnalele de comandă necesare execuției."
+    },
+    {
+      "id": 51,
+      "context": "Regiștrii procesorului pot fi de mai multe tipuri: de uz general, de stare, de segment sau de adresare.",
+      "reference_question": "Care este rolul registrelor procesorului?",
+      "generated_question": "Care sunt tipurile de registrii procesorului?",
+      "generated_options": {
+        "A": "de uz general, de stare, de segment sau de adresare",
+        "B": "doar de uz general si de stare",
+        "C": "de uz general si de segment",
+        "D": "de stare si de adresare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Conform textului, registrii procesorului pot fi de mai multe tipuri: de uz general, de stare, de segment sau de adresare."
+    },
+    {
+      "id": 52,
+      "context": "Memoria RAM este considerată memorie primară și este utilizată pentru stocarea temporară a datelor și instrucțiunilor programelor în execuție.",
+      "reference_question": "Ce rol are memoria RAM într-un calculator?",
+      "generated_question": "Ce tip de memorie este considerată memoria RAM?",
+      "generated_options": {
+        "A": "memorie primară",
+        "B": "memorie secundară",
+        "C": "memorie terțiară",
+        "D": "memorie externă"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Conform textului, memoria RAM este considerată memorie primară și este utilizată pentru stocarea temporară a datelor și instrucțiunilor programelor în execuție."
+    },
+    {
+      "id": 53,
+      "context": "Dispozitivele de I/O pot fi de intrare, ieșire sau combinate, permițând interacțiunea utilizatorului cu sistemul.",
+      "reference_question": "Care dintre următoarele este un exemplu de dispozitiv de intrare/ieșire?",
+      "generated_question": "Care sunt tipurile de dispozitive de I/O?",
+      "generated_options": {
+        "A": "Dispozitive de intrare, ieșire sau combinate",
+        "B": "Doar dispozitive de intrare",
+        "C": "Doar dispozitive de ieșire",
+        "D": "Dispozitive de stocare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Dispozitivele de I/O pot fi de intrare, ieșire sau combinate, permițând interacțiunea utilizatorului cu sistemul, după cum se menționează în text."
+    },
+    {
+      "id": 54,
+      "context": "Instrucțiunea mașină este o comandă executabilă de procesor, corespunzând unei operații elementare.",
+      "reference_question": "Ce reprezintă o instrucțiune mașină?",
+      "generated_question": "Ce reprezintă instrucțiunea mașină?",
+      "generated_options": {
+        "A": "o comandă executabilă de procesor",
+        "B": "o operație complexă",
+        "C": "un set de reguli",
+        "D": "un sistem de operare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Instrucțiunea mașină este definită în text ca o comandă executabilă de procesor, corespunzând unei operații elementare."
+    },
+    {
+      "id": 55,
+      "context": "Ciclul instrucțiunii include pașii de preluare, decodificare și execuție a unei instrucțiuni din memorie.",
+      "reference_question": "Care este ordinea corectă a etapelor din ciclul instrucțiunii?",
+      "generated_question": "Care sunt pașii ciclului instrucțiunii?",
+      "generated_options": {
+        "A": "preluare, decodificare și execuție",
+        "B": "decodificare, execuție și stocare",
+        "C": "preluare, execuție și stocare",
+        "D": "decodificare, preluare și stocare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Conform textului, ciclul instrucțiunii include pașii de preluare, decodificare și execuție a unei instrucțiuni din memorie."
+    },
+    {
+      "id": 56,
+      "context": "Un calculator numeric este un dispozitiv electronic capabil să prelucreze, să stocheze și să transmită informații numerice.",
+      "reference_question": "Ce funcții principale îndeplinește un calculator numeric?",
+      "generated_question": "Ce tip de informații poate prelucra un calculator numeric?",
+      "generated_options": {
+        "A": "numerice",
+        "B": "textuale",
+        "C": "imagini",
+        "D": "sunete"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Un calculator numeric este capabil să prelucreze informații numerice, conform textului."
+    },
+    {
+      "id": 57,
+      "context": "Modelul black-box descrie calculatorul ca un sistem cu intrări și ieșiri, fără a evidenția procesele interne.",
+      "reference_question": "Ce reprezintă modelul black-box al unui calculator?",
+      "generated_question": "Cum descrie modelul black-box calculatorul?",
+      "generated_options": {
+        "A": "ca un sistem cu intrări și ieșiri, fără a evidenția procesele interne",
+        "B": "ca un sistem cu intrări, dar fără ieșiri",
+        "C": "ca un sistem cu ieșiri, dar fără intrări",
+        "D": "ca un sistem fără intrări și ieșiri"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Modelul black-box descrie calculatorul ca un sistem cu intrări și ieșiri, fără a evidenția procesele interne, conform textului dat."
+    },
+    {
+      "id": 58,
+      "context": "Informația numerică este reprezentată prin semnale discrete care pot lua un număr finit de valori numerice.",
+      "reference_question": "Cum este reprezentată informația numerică într-un calculator numeric?",
+      "generated_question": "Cum este reprezentată informația numerică?",
+      "generated_options": {
+        "A": "prin semnale discrete care pot lua un număr finit de valori numerice",
+        "B": "prin semnale continue care pot lua un număr infinit de valori numerice",
+        "C": "prin simboluri alfabetice",
+        "D": "prin imagini"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Informația numerică este reprezentată prin semnale discrete care pot lua un număr finit de valori numerice, conform textului."
+    },
+    {
+      "id": 59,
+      "context": "Sistemele de numeratie definesc moduri diferite de reprezentare a numerelor, folosind baze precum 2, 8, 10 sau 16.",
+      "reference_question": "Care sunt cele mai utilizate baze de numeratie în informatică?",
+      "generated_question": "Ce baze pot fi folosite pentru reprezentarea numerelor in sistemele de numeratie?",
+      "generated_options": {
+        "A": "2, 8, 10 sau 16",
+        "B": "2, 4, 6 sau 8",
+        "C": "1, 5, 10 sau 15",
+        "D": "3, 6, 9 sau 12"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Sistemele de numeratie definesc moduri diferite de reprezentare a numerelor, folosind baze precum 2, 8, 10 sau 16, conform textului."
+    },
+    {
+      "id": 60,
+      "context": "Reprezentarea pozițională a numerelor se bazează pe valoarea cifrei și pe poziția acesteia în cadrul numărului.",
+      "reference_question": "Pe ce principiu se bazează reprezentarea pozițională a numerelor?",
+      "generated_question": "Ce se ia în considerare la reprezentarea pozițională a numerelor?",
+      "generated_options": {
+        "A": "valoarea cifrei și poziția acesteia",
+        "B": "numai valoarea cifrei",
+        "C": "numai poziția cifrei",
+        "D": "numărul de cifre"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Reprezentarea pozițională a numerelor se bazează pe valoarea cifrei și pe poziția acesteia în cadrul numărului, conform textului oferit."
+    },
+    {
+      "id": 61,
+      "context": "Arhitectura von Neumann definește componentele fundamentale ale unui calculator: unitatea de calcul, unitatea de control, memoria și dispozitivele de intrare/ieșire.",
+      "reference_question": "Ce componente definește arhitectura von Neumann?",
+      "generated_question": "Care sunt componentele fundamentale ale unui calculator definite de arhitectura von Neumann?",
+      "generated_options": {
+        "A": "unitatea de calcul, unitatea de control, memoria și dispozitivele de intrare/ieșire",
+        "B": "unitatea de calcul, unitatea de control și memoria",
+        "C": "unitatea de calcul, memoria și dispozitivele de intrare/ieșire",
+        "D": "unitatea de control, memoria și dispozitivele de intrare/ieșire"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Arhitectura von Neumann definește componentele fundamentale ale unui calculator, care includ unitatea de calcul, unitatea de control, memoria și dispozitivele de intrare/ieșire."
+    },
+    {
+      "id": 62,
+      "context": "Unitatea de control gestionează ordinea execuției instrucțiunilor și generează semnalele de comandă necesare procesării.",
+      "reference_question": "Care este rolul principal al unității de control?",
+      "generated_question": "Care este rolul unității de control?",
+      "generated_options": {
+        "A": "Gestionează ordinea execuției instrucțiunilor și generează semnalele de comandă necesare procesării",
+        "B": "Execută instrucțiunile și stochează datele",
+        "C": "Generează numai semnalele de comandă",
+        "D": "Stochează și procesează datele"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Unitatea de control are rolul de a gestiona ordinea execuției instrucțiunilor și de a genera semnalele de comandă necesare procesării, așa cum se specifică în text."
+    },
+    {
+      "id": 63,
+      "context": "Unitatea aritmetico-logică (ALU) efectuează operațiile logice și aritmetice asupra datelor.",
+      "reference_question": "Ce tipuri de operații efectuează unitatea aritmetico-logică (ALU)?",
+      "generated_question": "Care sunt operațiile efectuate de Unitatea aritmetico-logică (ALU) asupra datelor?",
+      "generated_options": {
+        "A": "operațiile logice și aritmetice",
+        "B": "operațiile logice și de stocare",
+        "C": "operațiile aritmetice și de citire",
+        "D": "operațiile de stocare și de citire"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Unitatea aritmetico-logică (ALU) efectuează operațiile logice și aritmetice asupra datelor, conform textului dat."
+    },
+    {
+      "id": 64,
+      "context": "CPU-ul conține unitatea de control, unitatea de calcul și un set de registre utilizate pentru stocarea temporară a datelor.",
+      "reference_question": "Ce componente principale conține CPU-ul?",
+      "generated_question": "Care sunt componentele principale ale CPU-ului?",
+      "generated_options": {
+        "A": "unitatea de control, unitatea de calcul și un set de registre",
+        "B": "unitatea de control și un set de registre",
+        "C": "unitatea de calcul și un set de registre",
+        "D": "unitatea de control și unitatea de calcul"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Conform textului, CPU-ul conține unitatea de control, unitatea de calcul și un set de registre utilizate pentru stocarea temporară a datelor."
+    },
+    {
+      "id": 65,
+      "context": "Memoria unui calculator este alcătuită din locații de memorie identificate prin adrese unice.",
+      "reference_question": "Cum sunt identificate locațiile de memorie într-un calculator?",
+      "generated_question": "Cum sunt identificate locațiile de memorie într-un calculator?",
+      "generated_options": {
+        "A": "Prin adrese unice",
+        "B": "Prin nume",
+        "C": "Prin culori",
+        "D": "Prin mărime"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Conform textului, memoria unui calculator este alcătuită din locații de memorie identificate prin adrese unice."
+    },
+    {
+      "id": 66,
+      "context": "Un bit reprezintă cea mai mică unitate de informație și poate avea două valori: 0 sau 1.",
+      "reference_question": "Ce reprezintă un bit?",
+      "generated_question": "Ce valori poate avea un bit?",
+      "generated_options": {
+        "A": "0 sau 1",
+        "B": "0 sau 2",
+        "C": "1 sau 2",
+        "D": "-1 sau 1"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Un bit reprezintă cea mai mică unitate de informație și poate avea două valori: 0 sau 1."
+    },
+    {
+      "id": 67,
+      "context": "Un octet (byte) este format din 8 biți și este unitatea de bază pentru reprezentarea caracterelor și datelor.",
+      "reference_question": "Câți biți conține un octet?",
+      "generated_question": "Ce este un octet (byte) în ceea ce privește reprezentarea caracterelor și datelor?",
+      "generated_options": {
+        "A": "o unitate de bază formată din 8 biți",
+        "B": "o unitate de bază formată din 4 biți",
+        "C": "o unitate de bază formată din 16 biți",
+        "D": "o unitate de bază formată din 2 biți"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Un octet (byte) este unitatea de bază pentru reprezentarea caracterelor și datelor și este format din 8 biți."
+    },
+    {
+      "id": 68,
+      "context": "Capacitatea memoriei este exprimată în multipli binari: kilobyte (KB), megabyte (MB), gigabyte (GB) etc.",
+      "reference_question": "Cum este exprimată capacitatea memoriei unui calculator?",
+      "generated_question": "În ce unități este exprimată capacitatea memoriei?",
+      "generated_options": {
+        "A": "multipli binari",
+        "B": "multipli zecimale",
+        "C": "multipli hexazecimale",
+        "D": "grade și radiani"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Capacitatea memoriei este exprimată în multipli binari, cum ar fi kilobyte, megabyte, gigabyte etc."
+    },
+    {
+      "id": 69,
+      "context": "Dispozitivele de I/O (input/output) asigură introducerea și extragerea informațiilor din calculator.",
+      "reference_question": "Ce rol au dispozitivele de I/O?",
+      "generated_question": "Care este rolul dispozitivelor de I/O într-un calculator?",
+      "generated_options": {
+        "A": "Asigură introducerea și extragerea informațiilor",
+        "B": "Execută operații aritmetice",
+        "C": "Stochează datele permanente",
+        "D": "Reglează viteza procesorului"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Dispozitivele de I/O asigură introducerea și extragerea informațiilor din calculator, conform textului."
+    },
+    {
+      "id": 70,
+      "context": "Un exemplu de dispozitiv de intrare este tastatura, iar un exemplu de dispozitiv de ieșire este imprimanta.",
+      "reference_question": "Care dintre următoarele este un dispozitiv de ieșire?",
+      "generated_question": "Care este un exemplu de dispozitiv de intrare menționat în text?",
+      "generated_options": {
+        "A": "tastatura",
+        "B": "imprimanta",
+        "C": "mouse",
+        "D": "scanner"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Conform textului, tastatura este un exemplu de dispozitiv de intrare."
+    },
+    {
+      "id": 71,
+      "context": "Programele reprezintă secvențe de instrucțiuni mașină încărcate în memoria primară pentru execuție.",
+      "reference_question": "Ce trebuie să se întâmple cu un program înainte de a fi executat?",
+      "generated_question": "Ce reprezintă programele?",
+      "generated_options": {
+        "A": "secvențe de instrucțiuni mașină încărcate în memoria primară pentru execuție",
+        "B": "date stocate în memoria secundară",
+        "C": "comenzi de sistem operative",
+        "D": "aplicații de birou"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Programele sunt definite ca secvențe de instrucțiuni mașină încărcate în memoria primară pentru execuție, conform textului dat."
+    },
+    {
+      "id": 72,
+      "context": "Ciclul instrucțiunii include etapele: preluare (fetch), decodificare (decode) și execuție (execute).",
+      "reference_question": "Care este ordinea corectă a etapelor din ciclul instrucțiunii?",
+      "generated_question": "Care sunt etapele ciclului instrucțiunii?",
+      "generated_options": {
+        "A": "preluare, decodificare și execuție",
+        "B": "preluare, decodificare și stocare",
+        "C": "decodificare, execuție și stocare",
+        "D": "preluare, execuție și stocare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Conform textului, ciclul instrucțiunii include etapele preluare, decodificare și execuție."
+    },
+    {
+      "id": 73,
+      "context": "Sistemele de codificare, precum ASCII sau Unicode, sunt utilizate pentru reprezentarea caracterelor și simbolurilor.",
+      "reference_question": "Care este scopul sistemelor de codificare precum ASCII și Unicode?",
+      "generated_question": "Care sunt sistemele de codificare menționate în text pentru reprezentarea caracterelor și simbolurilor?",
+      "generated_options": {
+        "A": "ASCII și Unicode",
+        "B": "ASCII și Binary",
+        "C": "Unicode și Hexadecimal",
+        "D": "Binary și Hexadecimal"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Sistemele de codificare menționate în text sunt ASCII și Unicode, care sunt utilizate pentru reprezentarea caracterelor și simbolurilor."
+    },
+    {
+      "id": 74,
+      "context": "Sistemul ASCII utilizează 7 biți pentru reprezentarea caracterelor, în timp ce Unicode extinde această reprezentare pentru mai multe limbi.",
+      "reference_question": "Care este principala diferență dintre ASCII și Unicode?",
+      "generated_question": "Câți biți utilizează sistemul ASCII pentru reprezentarea caracterelor?",
+      "generated_options": {
+        "A": "7",
+        "B": "8",
+        "C": "6",
+        "D": "9"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Sistemul ASCII utilizează 7 biți pentru reprezentarea caracterelor, conform textului."
+    },
+    {
+      "id": 75,
+      "context": "RGB este un sistem de codificare utilizat pentru reprezentarea culorilor pe baza combinației de roșu, verde și albastru.",
+      "reference_question": "Ce reprezintă modelul de codificare RGB?",
+      "generated_question": "Ce sistem de codificare se utilizează pentru reprezentarea culorilor pe baza combinației de culori?",
+      "generated_options": {
+        "A": "RGB",
+        "B": "CMYK",
+        "C": "RGBA",
+        "D": "HSV"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "RGB este un sistem de codificare utilizat pentru reprezentarea culorilor pe baza combinației de roșu, verde și albastru, conform textului."
+    },
+    {
+      "id": 76,
+      "context": "Sistemele de numeratie binar, octal, zecimal și hexazecimal sunt utilizate în informatică pentru reprezentarea și conversia valorilor numerice.",
+      "reference_question": "Care sistem de numeratie este utilizat intern de calculatoare?",
+      "generated_question": "Care sunt sistemele de numeratie utilizate în informatică pentru reprezentarea și conversia valorilor numerice?",
+      "generated_options": {
+        "A": "binar, octal, zecimal și hexazecimal",
+        "B": "binar, octal și zecimal",
+        "C": "octal, zecimal și hexazecimal",
+        "D": "binar și hexazecimal"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Textul menționează explicit că sistemele de numeratie binar, octal, zecimal și hexazecimal sunt utilizate în informatică pentru reprezentarea și conversia valorilor numerice."
+    },
+    {
+      "id": 77,
+      "context": "Codificarea binară este metoda de bază prin care datele sunt reprezentate în calculatoare.",
+      "reference_question": "De ce este importantă codificarea binară în calculatoare?",
+      "generated_question": "Care este metoda de bază prin care datele sunt reprezentate în calculatoare?",
+      "generated_options": {
+        "A": "Codificarea binară",
+        "B": "Codificarea hexazecimală",
+        "C": "Codificarea octală",
+        "D": "Codificarea decimală"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Conform textului, codificarea binară este metoda de bază prin care datele sunt reprezentate în calculatoare."
+    },
+    {
+      "id": 78,
+      "context": "Reprezentarea datelor în memorie se face prin grupuri de biți, organizate în octeți și cuvinte de memorie.",
+      "reference_question": "Cum sunt organizate datele în memoria unui calculator?",
+      "generated_question": "Cum se reprezintă datele în memorie?",
+      "generated_options": {
+        "A": "prin grupuri de biți, organizate în octeți și cuvinte de memorie",
+        "B": "prin caractere individuale",
+        "C": "prin numere întregi",
+        "D": "prin simboluri specifice"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Reprezentarea datelor în memorie se face prin grupuri de biți, organizate în octeți și cuvinte de memorie, conform textului dat."
+    },
+    {
+      "id": 79,
+      "context": "Unitatea de măsură a capacității de stocare în informatică este byte-ul (B).",
+      "reference_question": "Ce unitate de măsură se folosește pentru capacitatea de stocare a datelor?",
+      "generated_question": "Care este unitatea de măsură a capacității de stocare în informatică?",
+      "generated_options": {
+        "A": "byte-ul (B)",
+        "B": "kilobit-ul (kb)",
+        "C": "megahert-zul (MHz)",
+        "D": "gigahert-zul (GHz)"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Conform textului, unitatea de măsură a capacității de stocare în informatică este byte-ul (B)."
+    },
+    {
+      "id": 80,
+      "context": "Tamponul de intrare/ieșire (buffer) acționează ca intermediar între dispozitivele lente și cele rapide.",
+      "reference_question": "Ce rol are tamponul (bufferul) în mecanismele de I/O?",
+      "generated_question": "Ce rol joacă tamponul de intrare/ieșire?",
+      "generated_options": {
+        "A": "Acționează ca intermediar între dispozitivele lente și cele rapide",
+        "B": "Reglează viteza dispozitivelor",
+        "C": "Controlează fluxul de date",
+        "D": "Protejează dispozitivele de suprasarcină"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Tamponul de intrare/ieșire acționează ca intermediar între dispozitivele lente și cele rapide, astfel îmbunătățind comunicarea și schimbul de date între ele."
+    },
+    {
+      "id": 81,
+      "context": "Un limbaj de programare este un set de reguli și simboluri folosit pentru a descrie algoritmi și pentru a crea programe executabile.",
+      "reference_question": "Ce reprezintă un limbaj de programare?",
+      "generated_question": "Ce reprezintă un limbaj de programare?",
+      "generated_options": {
+        "A": "un set de reguli și simboluri folosit pentru a descrie algoritmi și pentru a crea programe executabile",
+        "B": "un program executabil",
+        "C": "un algoritm",
+        "D": "un sistem de operare"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Un limbaj de programare este definit ca un set de reguli și simboluri folosit pentru a descrie algoritmi și pentru a crea programe executabile, conform textului furnizat."
+    },
+    {
+      "id": 82,
+      "context": "Limbajele de programare pot fi clasificate în limbaje de nivel jos și limbaje de nivel înalt, în funcție de gradul de abstractizare față de hardware.",
+      "reference_question": "După ce criteriu sunt clasificate limbajele de programare?",
+      "generated_question": "Cum pot fi clasificate limbajele de programare în funcție de gradul de abstractizare față de hardware?",
+      "generated_options": {
+        "A": "în limbaje de nivel jos și limbaje de nivel înalt",
+        "B": "în limbaje de nivel mediu și limbaje de nivel avansat",
+        "C": "în limbaje de nivel înalt și limbaje de nivel mediu",
+        "D": "în limbaje de nivel jos și limbaje de nivel mediu"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Limbajele de programare pot fi clasificate în limbaje de nivel jos și limbaje de nivel înalt, în funcție de gradul de abstractizare față de hardware, așa cum se menționează în text."
+    },
+    {
+      "id": 83,
+      "context": "Limbajele de nivel jos sunt apropiate de arhitectura hardware și oferă control direct asupra resurselor sistemului.",
+      "reference_question": "Ce caracterizează limbajele de nivel jos?",
+      "generated_question": "Care este o caracteristică a limbajelor de nivel jos?",
+      "generated_options": {
+        "A": "Sunt apropiate de arhitectura hardware",
+        "B": "Sunt folosite doar pentru aplicații web",
+        "C": "Nu oferă control asupra resurselor sistemului",
+        "D": "Sunt utilizate doar pentru dezvoltarea de jocuri"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Limbajele de nivel jos sunt apropiate de arhitectura hardware și oferă control direct asupra resurselor sistemului, conform textului oferit."
+    },
+    {
+      "id": 84,
+      "context": "Limbajele de nivel înalt sunt mai ușor de înțeles de către oameni și ascund detaliile de implementare hardware.",
+      "reference_question": "Ce avantaj oferă limbajele de nivel înalt?",
+      "generated_question": "Care este o caracteristică a limbajelor de nivel înalt?",
+      "generated_options": {
+        "A": "sunt mai ușor de înțeles de către oameni",
+        "B": "sunt mai greu de înțeles de către oameni",
+        "C": "detaliile de implementare hardware sunt mai evidente",
+        "D": "sunt folosite doar pentru implementarea software-ului de sistem"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Limbajele de nivel înalt sunt descrise în text ca fiind mai ușor de înțeles de către oameni, ceea ce face opțiunea A corectă."
+    },
+    {
+      "id": 85,
+      "context": "Un compilator traduce întreg codul sursă într-un fișier executabil înainte de rulare.",
+      "reference_question": "Ce face un compilator?",
+      "generated_question": "Ce face un compilator cu codul sursă înainte de rulare?",
+      "generated_options": {
+        "A": "Îl traduce într-un fișier executabil",
+        "B": "Îl rulează direct fără traducere",
+        "C": "Îl dividă în fișiere separate",
+        "D": "Îl șterge"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Un compilator traduce întreg codul sursă într-un fișier executabil înainte de rulare, conform textului dat."
+    },
+    {
+      "id": 86,
+      "context": "Un interpret execută codul sursă instrucțiune cu instrucțiune, fără a genera un fișier executabil separat.",
+      "reference_question": "Cum funcționează un interpret?",
+      "generated_question": "Ce face un interpret cu codul sursă?",
+      "generated_options": {
+        "A": "Execută codul sursă instrucțiune cu instrucțiune",
+        "B": "Generează un fișier executabil separat",
+        "C": "Compilă și execută codul sursă",
+        "D": "Optimizează codul sursă pentru performanță"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Un interpret execută codul sursă instrucțiune cu instrucțiune, fără a genera un fișier executabil separat, așa cum se specifică în text."
+    },
+    {
+      "id": 87,
+      "context": "Compilatoarele și interpreții sunt programe esențiale pentru traducerea codului sursă într-o formă pe care procesorul o poate executa.",
+      "reference_question": "Care este rolul compilatoarelor și interpreților?",
+      "generated_question": "Care este scopul principal al compilatoarelor și interpreților?",
+      "generated_options": {
+        "A": "Traducerea codului sursă într-o formă pe care procesorul o poate executa",
+        "B": "Crearea codului sursă",
+        "C": "Verificarea erorilor de syntaxă",
+        "D": "Optimizarea performanței sistemului"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Compilatoarele și interpreții sunt programe esențiale pentru traducerea codului sursă într-o formă pe care procesorul o poate executa, așa cum se menționează în text."
+    },
+    {
+      "id": 88,
+      "context": "Un limbaj compilat este de obicei mai rapid la execuție decât unul interpretat, deoarece codul mașină este generat anterior rulării.",
+      "reference_question": "Care este principalul avantaj al limbajelor compilate?",
+      "generated_question": "De ce un limbaj compilat este mai rapid la execuție decât unul interpretat?",
+      "generated_options": {
+        "A": "Pentru că codul mașină este generat anterior rulării",
+        "B": "Pentru că codul sursă este mai simplu",
+        "C": "Pentru că limbajul compilat necesită mai puține resurse",
+        "D": "Pentru că interpretorul este mai lent"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Un limbaj compilat este mai rapid la execuție decât unul interpretat, deoarece codul mașină este generat anterior rulării, ceea ce reduce timpul de execuție."
+    },
+    {
+      "id": 89,
+      "context": "Un limbaj interpretat este de obicei mai lent, dar permite testarea și modificarea rapidă a codului.",
+      "reference_question": "Ce avantaj oferă limbajele interpretate?",
+      "generated_question": "Care este o caracteristică a unui limbaj interpretat?",
+      "generated_options": {
+        "A": "Permite testarea și modificarea rapidă a codului",
+        "B": "Este mai rapid decât limbajele compilate",
+        "C": "Nu permite testarea și modificarea codului",
+        "D": "Este utilizat doar pentru programe mici"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Un limbaj interpretat permite testarea și modificarea rapidă a codului, deși este mai lent decât limbajele compilate."
+    },
+    {
+      "id": 90,
+      "context": "Paradigma procedurală organizează programul în funcții și proceduri, fiecare având o responsabilitate clară.",
+      "reference_question": "Cum este structurat un program procedural?",
+      "generated_question": "Cum organizează paradigma procedurală programul?",
+      "generated_options": {
+        "A": "în funcții și proceduri",
+        "B": "în clase și obiecte",
+        "C": "în variabile și tipuri de date",
+        "D": "în structuri de date și algoritmi"
+      },
+      "generated_correct": "A",
+      "reference_correct": "A",
+      "explanation": "Paradigma procedurală organizează programul în funcții și proceduri, fiecare având o responsabilitate clară, așa cum se menționează în text."
+    },
+    {
+      "id": 91,
+      "context": "Limbajul C este un exemplu de limbaj procedural, bazat pe funcții care manipulează datele prin apeluri directe.",
+      "reference_question": "Ce tip de paradigmă urmează limbajul C?",
+      "generated_question": "Ce tip de limbaj de programare este limbajul C?",
+      "generated_options": {
+        "A": "Limbaj procedural",
+        "B": "Limbaj orientat pe obiecte",
+        "C": "Limbaj funcțional",
+        "D": "Limbaj declarativ"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Limbajul C este descris în text ca fiind un exemplu de limbaj procedural, bazat pe funcții care manipulează datele prin apeluri directe."
+    },
+    {
+      "id": 92,
+      "context": "Paradigma orientată pe obiecte (OOP) organizează codul în clase și obiecte care combină date și funcționalitate.",
+      "reference_question": "Ce caracterizează paradigma orientată pe obiecte?",
+      "generated_question": "Cum organizează paradigma orientată pe obiecte (OOP) codul?",
+      "generated_options": {
+        "A": "în clase și obiecte care combină date și funcționalitate",
+        "B": "în funcții și variabile separate",
+        "C": "în tabele și structuri de date",
+        "D": "în algoritmii și interfețe"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Paradigma orientată pe obiecte (OOP) organizează codul în clase și obiecte care combină date și funcționalitate, conform textului dat."
+    },
+    {
+      "id": 93,
+      "context": "O clasă definește structura și comportamentul obiectelor care vor fi create pe baza ei.",
+      "reference_question": "Ce reprezintă o clasă într-un limbaj orientat pe obiecte?",
+      "generated_question": "Ce definește o clasă?",
+      "generated_options": {
+        "A": "structura și comportamentul obiectelor",
+        "B": "comportamentul sistemului",
+        "C": "structura bazei de date",
+        "D": "interfața utilizatorului"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "O clasă definește structura și comportamentul obiectelor care vor fi create pe baza ei, conform textului."
+    },
+    {
+      "id": 94,
+      "context": "Un obiect este o instanță a unei clase, având propriile valori pentru atributele definite.",
+      "reference_question": "Ce este un obiect într-un limbaj orientat pe obiecte?",
+      "generated_question": "Ce reprezintă un obiect în contextul claselor?",
+      "generated_options": {
+        "A": "o instanță a unei clase, cu valori proprii pentru atribute",
+        "B": "o clasă cu atribute și metode",
+        "C": "o colecție de atribute și metode",
+        "D": "un tip de dată fundamental"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Un obiect este o instanță a unei clase, având propriile valori pentru atributele definite, așa cum se menționează în text."
+    },
+    {
+      "id": 95,
+      "context": "Encapsularea este principiul prin care datele și funcțiile aferente sunt grupate într-o singură entitate, ascunzând detaliile interne.",
+      "reference_question": "Ce reprezintă principiul de encapsulare?",
+      "generated_question": "Care este principiul care grupează datele și funcțiile aferente într-o singură entitate, ascunzând detaliile interne?",
+      "generated_options": {
+        "A": "Encapsularea",
+        "B": "Moștenirea",
+        "C": "Polimorfismul",
+        "D": "Abstracția"
+      },
+      "generated_correct": "A",
+      "reference_correct": "B",
+      "explanation": "Conform textului, encapsularea este principiul care grupează datele și funcțiile aferente într-o singură entitate, ascunzând detaliile interne."
+    },
+    {
+      "id": 96,
+      "context": "Moștenirea permite crearea de clase noi pe baza unor clase existente, reutilizând codul și extinzând funcționalitatea.",
+      "reference_question": "Ce permite principiul de moștenire în OOP?",
+      "generated_question": "Ce permite moștenirea în cadrul programării orientate pe obiecte?",
+      "generated_options": {
+        "A": "Crearea de clase noi pe baza unor clase existente",
+        "B": "Ștergerea claselor existente",
+        "C": "Renumerotarea variabilelor",
+        "D": "Reorganizarea metodelor"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Moștenirea permite reutilizarea codului și extinderea funcționalității prin crearea de clase noi pe baza unor clase existente."
+    },
+    {
+      "id": 97,
+      "context": "Polimorfismul permite folosirea acelorași metode în contexte diferite, adaptând comportamentul în funcție de tipul obiectului.",
+      "reference_question": "Ce reprezintă polimorfismul?",
+      "generated_question": "Ce permite polimorfismul în programare?",
+      "generated_options": {
+        "A": "Folosirea acelorași metode în contexte diferite",
+        "B": "Crearea de obiecte cu același nume",
+        "C": "Definirea de variabile cu tipuri fixe",
+        "D": "Implementarea de algoritmi liniari"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Polimorfismul permite adaptarea comportamentului în funcție de tipul obiectului, permițând folosirea acelorași metode în contexte diferite."
+    },
+    {
+      "id": 98,
+      "context": "Paradigma funcțională se bazează pe concepte matematice, tratând funcțiile ca entități de bază.",
+      "reference_question": "Pe ce principii se bazează paradigma funcțională?",
+      "generated_question": "Ce se consideră a fi entitățile de bază în paradigma funcțională?",
+      "generated_options": {
+        "A": "Funcțiile",
+        "B": "Variabilele",
+        "C": "Tipurile de date",
+        "D": "Algoritmii"
+      },
+      "generated_correct": "A",
+      "reference_correct": "C",
+      "explanation": "Conform textului, paradigma funcțională se bazează pe concepte matematice și tratează funcțiile ca entități de bază."
+    },
+    {
+      "id": 99,
+      "context": "Paradigma logică folosește reguli și fapte pentru a deduce soluții, fiind utilizată în limbaje precum Prolog.",
+      "reference_question": "Cum funcționează paradigma logică în programare?",
+      "generated_question": "Care limbaj de programare este menționat ca fiind utilizat în paradigma logică?",
+      "generated_options": {
+        "A": "Prolog",
+        "B": "Java",
+        "C": "Python",
+        "D": "C++"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Potrivit textului, paradigma logică folosește reguli și fapte pentru a deduce soluții, fiind utilizată în limbaje precum Prolog."
+    },
+    {
+      "id": 100,
+      "context": "Limbajele multi-paradigmă, precum Python și C++, permit combinarea mai multor stiluri de programare.",
+      "reference_question": "Ce caracterizează limbajele multi-paradigmă?",
+      "generated_question": "Care sunt exemple de limbaje de programare care permit combinarea mai multor stiluri de programare?",
+      "generated_options": {
+        "A": "Python și C++",
+        "B": "Java și JavaScript",
+        "C": "Ruby și Swift",
+        "D": "PHP și Perl"
+      },
+      "generated_correct": "A",
+      "reference_correct": "D",
+      "explanation": "Limbajele menționate în text, Python și C++, permit combinarea mai multor stiluri de programare, fiind limbaje multi-paradigmă."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Existing dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+pymupdf
+langchain
+langchain-community
+chromadb
+sentence-transformers
+groq
+
+# New dependencies for platform
+sqlalchemy[asyncio]
+alembic
+asyncpg
+psycopg2-binary
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+
+# Utils
+pydantic[email]
+pydantic-settings
